@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teachio Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="logo">Teachio</div>
+      <nav>
+        <a class="active">Dashboard</a>
+        <a>Classes</a><a>Students</a><a>Assignments</a><a>Resources</a><a>Reports</a><a>Messages</a><a>Calendar</a><a>AI Assistant</a><a>Settings</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <header class="topbar">
+        <div>
+          <h1>Welcome back, Ms. Rivera! 👋</h1>
+          <p>Manage your bilingual classes and empower every student.</p>
+        </div>
+        <div class="actions">
+          <button class="primary">+ Create Activity</button>
+          <button>Assign Quiz</button>
+          <button>View Resources</button>
+        </div>
+      </header>
+
+      <section class="cards">
+        <article class="stat blue"><h3>English Foundations</h3><p>Students <b>24</b> · Completion <b>82%</b> · Avg Mastery <b>78%</b></p></article>
+        <article class="stat green"><h3>Español Lectoescritura</h3><p>Students <b>22</b> · Completion <b>85%</b> · Avg Mastery <b>80%</b></p></article>
+        <article class="stat orange"><h3>Math / Matemáticas</h3><p>Students <b>23</b> · Completion <b>79%</b> · Avg Mastery <b>76%</b></p></article>
+      </section>
+
+      <section class="panel">
+        <h2>Class Overview</h2>
+        <table>
+          <thead><tr><th>Class</th><th>Subject</th><th>Students</th><th>Avg Mastery</th><th>Completion</th></tr></thead>
+          <tbody>
+            <tr><td>English Foundations</td><td>English</td><td>24</td><td>78%</td><td>82%</td></tr>
+            <tr><td>Español Lectoescritura</td><td>Español</td><td>22</td><td>80%</td><td>85%</td></tr>
+            <tr><td>Math / Matemáticas</td><td>Math</td><td>23</td><td>76%</td><td>79%</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <aside class="rightcol">
+      <section class="assistant">
+        <h3>TI-Bot AI Assistant</h3>
+        <p>Recomienda una actividad bilingüe para fracciones.</p>
+        <div class="bubble">🍕 Fraction Pizza · Inglés/Español · 3.NF.A.1</div>
+      </section>
+      <section class="panel mini">
+        <h3>Student Progress Highlights</h3>
+        <p>Average Mastery: <b>78%</b></p>
+        <p>Attendance Today: <b>94%</b></p>
+      </section>
+    </aside>
+  </div>
+</body>
+</html>
